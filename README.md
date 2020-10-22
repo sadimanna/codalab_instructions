@@ -1,6 +1,8 @@
 # CodaLab Instructions
 
-The docker image uses tensorflow/tensorflow-2.3.1 docker image as the base image. tensorflow/tensorflow:latest-gpu can also be used by uncommenting the ssecond line and commenting out the first line. **tensorflow/tensorflow:latest-gpu** provides the latest version of TF-gpu
+The docker image uses *tensorflow/tensorflow:2.3.1-gpu* docker image as the base image. 
+
+*tensorflow/tensorflow:latest-gpu* can also be used by uncommenting the second line and commenting out the first line. **tensorflow/tensorflow:latest-gpu** provides the latest version of TF-gpu
 
 Docker image available at https://hub.docker.com/r/sadimanna/dl_image
 
