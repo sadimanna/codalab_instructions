@@ -66,5 +66,5 @@ RUN python3 -m pip install --no-cache-dir ${TF_PACKAGE}${TF_PACKAGE_VERSION:+==$
 RUN python3 -m pip install pandas scikit-learn scikit-image imageio h5py
 
 
-COPY bashrc /etc/bash.bashrc
-RUN chmod a+rwx /etc/bash.bashrc
+# COPY bashrc /etc/bash.bashrc
+# RUN chmod a+rwx /etc/bash.bashrc
