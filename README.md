@@ -18,5 +18,5 @@ _run :imports.py "python3 imports.py"_
 
 - If the file is within the folder **src**
 
-_run --request-docker-image tensorflow/tensorflow:latest-gpu --request-gpus 1 --request-memory 4g --request-time 1h :imports.py "python3 imports.py"_
+_run --request-docker-image sadimanna/dl_image:latest --request-gpus 1 --request-memory 4g --request-time 1h :imports.py "python3 imports.py"_
 
